@@ -19,8 +19,12 @@
 }
 .content .let{
     padding:8px;
-
-
+}
+.content .btn-primary{
+    
+    background-color: #00BFBF;
+    border: 1px solid #00BFBF;
+    
 }
 .content{
 
@@ -76,7 +80,7 @@
 
     height: 50px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    background-color: dimgrey;
+    background-color: #007373;
 
 }
 
