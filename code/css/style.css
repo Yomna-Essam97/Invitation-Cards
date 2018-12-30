@@ -1,0 +1,144 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
+.toolbox-bar{
+
+
+    margin-top:20px;
+    background-color: aqua;
+    height:100%;
+    width:70px;
+    color:black;
+    display: block;
+    float: left;
+
+}
+
+
+.btn-outline-white{
+    background-color: transparent;
+    color:#fff;
+    border: 1px solid #fff;
+
+}
+
+
+
+.content, .contentpattern, .contentclipart{
+    margin-top:20px;
+    background-color: white;
+    border: 1px solid black;
+    height:100%;
+    width:270px;
+    float:left;
+    display: none;
+
+}
+
+
+.toolbox-bar .btn{
+    border-radius: 0px;
+    border: 1px solid dimgrey;
+
+}
+
+
+.toolbox-bar i{
+    font-size: 24px;
+    padding:8px;
+}
+.toolbox-bar label{
+    font-size: 12px;    
+}
+
+.toolbox-bar .gallery-tab{
+
+
+    text-align: center;
+    color: black;
+    cursor: pointer;
+
+}
+
+#template .heading{
+    border-bottom: 1px solid dodgerblue;
+    padding: 0 10px;
+    background-color: dimgrey;
+
+}
+
+#template .heading span,li,button{
+    float:left;
+}
+
+#template .heading li{
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+#template .heading .botn{
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#template .heading button:hover{
+    background-color: lightgray;
+    border:none;
+    color:dodgerblue;
+}
+#template .heading .name{
+    font-size: 24px;
+    font-family: 'Marck Script', cursive;
+    padding: 8px;
+    color: #fff;
+    margin-left: 45px;
+
+}
+#template .heading .first{
+    padding-right:40px;
+}
+
+.contentpattern li{
+    width:50px;
+    height:30px;
+    border-radius: 20px;
+   margin: 5px;
+   
+    
+}
+
+
+.colors,.arts{
+    
+    padding:30px;
+    
+}
+
+.contentclipart .arts li img{
+    
+     width:80px;
+    height:70px;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+.canvas {
+    background-color: yellow;
+    border:1px solid white;
+    width:500px;
+    height:400px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    position:relative;
+    left:500px;
+    top:70px;
+    
+}
+

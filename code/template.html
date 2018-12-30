@@ -1,0 +1,266 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css"/> 
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css//style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+
+    </head>
+    <body>
+        <section id="template">
+            <div class="heading">
+                <span class="name">Template1 </span>
+                <ul class="nav justify-content-end first">
+                    <li class="nav-item">
+                        <button class="btn btn-outline-white">
+                            <i class="fas fa-eye"></i>
+                            Preview</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-white">
+                            <i class="fas fa-save"></i>
+                            Save</button>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-outline-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-download"></i>
+                            Download</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Download as PDF</a>
+                            <a class="dropdown-item" href="#">Download as JPG</a>
+                        </div>
+                    </li>
+                </ul>
+            </div> 
+
+
+
+
+            <div class="clearfix"></div>
+
+
+            <!-- Toolbox -->
+
+            <div class="toolbox-bar text-center">
+                <ul class="list-unstyled">
+                    <li class="cardsize"><i class="fas fa-desktop"></i> 
+                        <label>Card Size</label></li>
+                    <li class="gallery"><i class="far fa-images"></i> 
+                        <label>Gallery</label></li>
+                    <li class="clipart"><i class="fas fa-paint-brush"></i> 
+                        <label>Clip Art</label></li>
+                    <li class="bground"><i class="fas fa-paint-brush"></i> 
+                        <label>Patterns</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content">
+
+            </div>
+
+            <div class="contentpattern">
+
+                <div class="colors">
+                    <ul class="list-unstyled">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+            </div>
+            
+            <div class="contentclipart">
+
+                <div class="arts">
+                    <ul class="list-unstyled">
+                        <li><img src="images/Balloons_PNG_Clip_Art-1547.png"/></li>
+                        <li><img src="images/Brown_Coffee_Cup_PNG_Clipart-562.png"/></li>
+                        <li><img src="images/1484082891Hearts-heart-clip-art-black-and-white-free-clipart-images.png"/></li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+            <!--canvas -->
+
+            <div id="mycanvas" class="canvas">
+            </div>
+
+            <!-- 
+
+
+.gallery-tab{
+background-color: aqua;
+width:70px;
+color:black;
+float:left;
+}
+<div class="gallery-tab w-auto">
+<div class="tab">
+<i class="fas fa-desktop"></i> 
+<label>Card Size</label>
+</div>
+</div>
+
+<div class="gallery-tab w-auto">
+<div class="tab">
+<i class="fas fa-desktop"></i> 
+<label>Card Size</label>
+</div>
+</div>
+
+.gallery-tab .content{
+
+background-color: tomato;
+height:100%;
+width:270px;
+float:left;
+display: none;
+
+}
+-->
+
+
+
+
+
+
+
+            <!-- <div class="panel-group gallery-tab">
+<div class="panel-heading">
+<h5 class="panel-title"> 
+<div class="tab" data-toggle="collapse" href="#cardsize">
+<i class="fas fa-desktop"></i> 
+<label>Card Size</label>
+</div>
+<div class="content">
+</div>
+</h5>
+</div>
+<div id="cardsize" class="panel-collapse collapse">
+<div class="panel-body ml-2">5*7</div>
+
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="panel-group gallery-tab">
+<div class="panel-heading">
+<h5 class="panel-title"> 
+
+<div class="tab" data-toggle="collapse" href="#gallery">
+
+<i class="far fa-images"></i> 
+<br>
+<label>Gallery</label>
+</div>
+
+
+
+</h5>
+</div>
+<div id="gallery" class="panel-collapse collapse">
+<div class="panel-body">Panel Body</div>
+<div class="panel-footer">Panel Footer</div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="panel-group gallery-tab">
+<div class="panel-heading">
+<h5 class="panel-title"> 
+<div class="tab" data-toggle="collapse" href="#design">
+<i class="fas fa-paint-brush"></i> 
+<label>Clip Art</label>
+</div>    
+</h5>
+</div>
+<div id="design" class="panel-collapse collapse">
+<div class="panel-body">
+
+
+</div>
+
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="panel-group gallery-tab">
+<div class="panel-heading">
+<h5 class="panel-title"> 
+<div class="tab" data-toggle="collapse" href="#pattern">
+<i class="fas fa-paint-brush"></i> 
+<label>Patterns</label>
+</div>    
+</h5>
+</div>
+<div id="pattern" class="panel-collapse collapse">
+<div class="panel-body">
+
+
+</div>
+
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="panel-group gallery-tab">
+<div class="panel-heading">
+<h5 class="panel-title"> 
+<div class="tab" data-toggle="collapse" href="#bg">
+<i class="fas fa-paint-brush"></i> 
+<label>Background</label>
+</div>    
+</h5>
+</div>
+<div id="bg" class="panel-collapse collapse">
+<div class="panel-body">
+<label>Background Color</label>
+<label>Background Image</label>
+
+</div>
+
+</div>
+</div>
+
+<div class="tab text-center">
+<a href="#"><i class="fas fa-upload"></i>   Image</a>
+
+</div>
+
+
+-->
+
+
+
+
+
+
+        </section>
+
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/actions.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+</html>
