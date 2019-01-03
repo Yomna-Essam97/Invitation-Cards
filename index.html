@@ -1,15 +1,15 @@
-    
+
 <html>
     <head>
-    
-     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/index_style.css">
-      <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
-       
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+
     </head>
     <body>
-<section class="main">
+        <section class="main">
 
             <div class="container-fluid">
 
@@ -27,17 +27,17 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">About</a>
                                 </li>
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Categories
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Wedding</a>
-          <a class="dropdown-item" href="#">Formal Events</a>
-          <a class="dropdown-item" href="#">Party</a>
-            <a class="dropdown-item" href="#">Graduation</a>
-        </div>
-      </li>         
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Categories
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Wedding</a>
+                                        <a class="dropdown-item" href="#">Formal Events</a>
+                                        <a class="dropdown-item" href="#">Party</a>
+                                        <a class="dropdown-item" href="#">Graduation</a>
+                                    </div>
+                                </li>         
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Help</a>
                                 </li>    
@@ -52,18 +52,16 @@
 
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
+                   <!-- <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
+                    </ol>-->
                     <div class="carousel-inner">      
                         <div class="carousel-item active">
                             <img class="d-block w-100 h-100" src="images/rawpixel-771269-unsplash.jpg">
                             <div class="l"></div>
                             <div class="carousel-caption d-md-block">
-
-
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -93,29 +91,58 @@
                 </div>
                 <div class="container content text-center">
 
-                    <h2>Design Brilliant Invitation Cards</h2>
-                    <p>For wedding party , birthday party, graduation and conferences.  </p>
-                    <p><a class="btn btn-primary let p-3" href="#" role="button"><span class="start">Let's Start</span></a></p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Design Brilliant Invitation Cards</h2>
+                            <p>For wedding party , birthday party, graduation and conferences.  </p>
+                            <p><a class="btn let" href="#" role="button"><span class="start">Get Started >>></span></a></p>
+                        </div>
+                        <div class="col-md-6">
+
+                            <!--Login form-->
+                            <div class="login">
+                                <form class="form-signin">       
+                                    <h2 class="form-signin-heading"> login </h2>
+                                    <div id="userNamelogin" class="form-group">
+                                        <input type="text" class="form-control" name="username" id="emailLogin" placeholder="Email Address" required="" autofocus="">
+                                        <div class="alert alert-danger mt-2"> UserName is empty !!</div>
+                                        <div class="alertwrong alert-danger mt-2"> UserName is wrong</div>
+                                    </div>
+                                    <div id="userpasslogin" class="form-group">
+                                        <input type="password" class="form-control" name="password" id="passLogin" placeholder="Password" required=""> 
+                                        <div class="alert alert-danger mt-2">you must enter Pass</div>
+                                    </div>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+                                    </label>
+                                    <button class="btn btn-lg btn-primary btn-block submit" id="buttonLogin" type="submit">Login</button>
+                                    <h5 class="mt-5">  Don't have an account?<a href="#" class="signUpColor">Sign Up</a></h5>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
 
             </div>    
 
         </section>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/popper.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
-      
+
+
+
+
+
+
+
+
+
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
     </body>
-    
-    </html>
+
+</html>
