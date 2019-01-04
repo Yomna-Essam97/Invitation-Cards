@@ -208,24 +208,42 @@ body{
 .loginColor,.signUpColor:hover{
     color: black;
 }
+
+
 /* contact us */
 
 .contactus{
     padding: 20px;
     background-color: #f1f1f1;
+    text-align: center;
+     margin:auto;
 
 }
-.contactus .send{
-    background-color: #007373;
+.contactus .btn{
+    
+     border:none;
+    color: #000;
+    background-color: #F1BBA2;
+    border-color: #F1BBA2;
     cursor: pointer;
-    border:none;
     padding:5px 10px;
     font-size: 20px;
 }
-.contactus .send:hover{
-    color:#007373;
-    background-color: lightgray;
+.contactus .btn:hover{
+    color:#F1BBA2;
+    background-color: #000;
 }
+
+
+
+form {
+   
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+
+
 
 /*Help*/
 #help .title-help{
@@ -264,44 +282,32 @@ body{
     background-color: lightgray;
     color:#007373;
 }
+
+.brdr1{
+
+    width: 10%;
+    height: 1px;
+    background-color: #B09F24;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.brdr2{
+
+    width: 18%;
+    height: 1px;
+    background-color: #B09F24;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.brdr3{
+
+    width: 10%;
+    height: 1px;
+    background-color: #B09F24;
+    margin: auto;
+
+}
 /*
 Categories
 */
-
-/*
-.categories  .bigger{
-
-box-sizing: border-box;
-width: 100%;
-height: 300px;
-}
-.categories .categoryName{
-font-weight: bold;
-font-size: 30px;
-padding:0 30px;
-border-bottom: 1px solid #007373;
-}
-.categories .content{
-
-margin-bottom: 10%;
-}
-.categories a{
-cursor: pointer;
-background-color: #007373;
-}
-.categories .start{
-margin-top: 17%;
-}
-.categories a:hover{
-background-color: lightgray;
-border:none;
-color:#007373;   
-}
-.categories .bigger:hover{
-transform:scale(1.2,1.3);
-z-index:585512555555555;
-cursor: pointer;
-}
-*/
-
 
