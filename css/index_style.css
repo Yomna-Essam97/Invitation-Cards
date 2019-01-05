@@ -307,7 +307,52 @@ form {
     margin: auto;
 
 }
-/*
-Categories
-*/
+/* Categories */
+
+#category{
+    
+   background-color: #f1f1f1;
+   padding-top:50px;        
+   padding-bottom:70px;
+}
+
+#category .frame{
+    width:280px;
+    border:1px solid #B09F24;
+    height:223px;
+    
+
+}
+#category .frame .layer{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    height:223px;
+    width: 278px;
+    text-align: center;
+
+}
+
+#category .frame img{
+    
+  height:223px;  
+}
+
+
+#category .frame .layer .word {
+    font-size:30px;
+    font-family: 'Rochester', cursive;
+    font-style: italic;
+    color:#B09F24;
+    cursor: pointer;
+}
+
+#category .frame .layer .layer2 {
+    background-color:rgba(0,0,0,0.3);
+    height: 50px;
+    position:relative;
+    top:80px;
+}
+
+
 
