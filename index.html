@@ -101,13 +101,13 @@
                         <div class="col-md-6">
 
                             <!--Login form-->
-                            <div class="login">
+                            <div id="login" class="login">
                                 <form class="form-signin">       
                                     <h2 class="form-signin-heading"> login </h2>
                                     <div id="userNamelogin" class="form-group">
-                                        <input type="text" class="form-control" name="username" id="emailLogin" placeholder="Email Address" required="" autofocus="">
-                                        <div class="alert alert-danger mt-2"> UserName is empty !!</div>
-                                        <div class="alertwrong alert-danger mt-2"> UserName is wrong</div>
+                                        <div class="alert alert-dark mb-2"> Please write the email address</div>
+                                        <input type="email" class="form-control" name="username" id="emailLogin" placeholder="Email Address" required="" autofocus="">
+                                        
                                     </div>
                                     <div id="userpasslogin" class="form-group">
                                         <input type="password" class="form-control" name="password" id="passLogin" placeholder="Password" required=""> 
@@ -117,7 +117,66 @@
                                         <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
                                     </label>
                                     <button class="btn btn-lg btn-primary btn-block submit" id="buttonLogin" type="submit">Login</button>
-                                    <h5 class="mt-5">  Don't have an account?<a href="#" class="signUpColor">Sign Up</a></h5>
+                                    <h5 class="mt-5">  Don't have an account?<a href="#register" class="signUpColor">Sign Up</a></h5>
+                                </form>
+                            </div>
+                            <div id="register" class="signup">
+                                <form class="form-signup">
+                                    <h2 class="form-signup-heading"> Create your Account </h2>
+                                    <div id="FristNameSignUpDiv" class="form-group row">
+                                        <label class="col-sm-5 col-form-label">Frist Name:</label>
+                                        <div class="col-sm-7">
+                                            <input id="fristnameSignup" type="text" class="form-control" name="Fristname" placeholder="Frist Name" required="" autofocus="">
+                                        </div>
+                                        <div class="alert alert-danger mt-2">Firstname is empty !!</div>
+                                        <div class="alertwrong alert-danger mt-2">Firstname already exists</div>
+                                    </div>
+
+                                    <div id="LastNameSignUpDiv" class="form-group row">
+                                        <label class="col-sm-5 col-form-label">Last Name:</label>
+                                        <div class="col-sm-7">
+                                            <input type="text" id="lastnameSignup" class="form-control" name="LastName" placeholder="Last Name" required="">
+                                        </div>
+                                        <div class="alert alert-danger mt-2">LastName is empty !!</div>
+                                        <div class="alertwrong alert-danger mt-2"> LastName already exists</div>
+                                    </div>
+                                    <div id="userNameSignUDivpDiv" class="form-group row">
+                                        <label class="col-sm-5 col-form-label">User Name:</label>
+                                        <div class="col-sm-7">
+                                            <input type="text" id="usernameSignup" class="form-control" name="UserName" placeholder="User Name" required="">
+                                        </div>
+                                        <div class="alert alert-danger mt-2">UserName  is empty !!</div>
+                                        <div class="alertwrong alert-danger mt-2"> UserName  already exists</div>
+                                    </div>
+                                    <div id="EmailSignUpDiv" class="form-group row">
+                                        <label class="col-sm-5 col-form-label">Email:</label>
+                                        <div class="col-sm-7">
+                                            <input type="text" id="emailSignup" class="form-control" name="Email" placeholder=" Emile" required="">
+                                        </div>
+                                        <div class="alert alert-danger mt-2">Emile   is empty !!</div>
+                                        <div class="alertwrong alert-danger mt-2">wrong Emile</div>
+                                    </div>
+                                    <div id="PassSignUpDiv" class="form-group row">
+                                        <label  class="col-sm-5 col-form-label">Password:</label>
+                                        <div class="col-sm-7">
+                                            <input type="password" id="passSignup" class="form-control" name="Password" placeholder="Password" required="">
+                                        </div>
+                                        <div class="alert alert-danger mt-2">password  is empty !!</div>
+                                        <div class="alertwrong alert-danger mt-2">wrong password</div>
+                                    </div>
+                                    <div id="rePassSignUpDiv" class="form-group row">
+                                        <label  class="col-sm-5 col-form-label">Re- Password:</label>
+                                        <div class="col-sm-7">
+                                            <input type="password" id="repassSignup" class="form-control" name="REPassword" placeholder="Re Password" required="">
+                                        </div>
+                                        <div class="alert alert-danger mt-2">re password  is empty !!</div>
+                                        <div class="alertwrong alert-danger mt-2">don't match password  </div>
+                                    </div>
+                                    <button class="btn btn-lg btn-primary btn-block submit" id="buttonSignup" type="submit">Sign Up</button>
+                                    <div class="pt-4">
+                                        <p>Already have an account? <a href="#login" class="loginColor">Login</a></p>
+                                    </div>
+                                    <div class="alertwrong alert-danger mt-2" id="wrongbutton">you match enter Missing faild</div>
                                 </form>
                             </div>
 
@@ -130,7 +189,7 @@
             </div>    
 
         </section>
-         <!--About US-->
+        <!--About US-->
 
         <section id="About">
 
@@ -140,7 +199,7 @@
                 <div class="brdr1"></div>
                 <div class="brdr2"></div>
                 <div class="brdr3 mb-4"></div>
-               
+
                 <div class="row">
                     <div class="col-sm-6 wow fadeInRight">
                         <div class="about-text" style="color: black">
@@ -161,7 +220,7 @@
             </div>
         </section>
 
-        
+
 
 
         <!--Categories-->
@@ -172,7 +231,7 @@
                 <div class="brdr2"></div>
                 <div class="brdr3 mb-4"></div>
                 <div class="brdr"></div>
-                
+
                 <div class="row">
                     <div class="col-md-3">
                         <div class="frame">
@@ -191,7 +250,7 @@
                             </div>
                             <div class="layer">
                                 <div class="layer2">
-                                    <span class="word"> Events </span>
+                                    <span class="word"> <a href="pages/formal-event.html"> Events </a></span>
                                 </div>
                             </div>
                         </div>    
@@ -218,7 +277,7 @@
                             </div>
                             <div class="layer">
                                 <div class="layer2">
-                                    <span class="word"> Party </span>
+                                    <span class="word"> <a href="pages/Party.html"> Party </a></span>
                                 </div>
                             </div>
                         </div>    
@@ -241,7 +300,7 @@
                             </div>
                             <div class="layer">
                                 <div class="layer2">
-                                    <span class="word"> Graduation </span>
+                                    <span class="word"><a href="pages/graduation.html"> Graduation </a> </span>
                                 </div>
                             </div>
                         </div>  
@@ -267,7 +326,7 @@
                             </div>
                             <div class="layer">
                                 <div class="layer2">
-                                    <span class="word"> Wedding </span>
+                                    <span class="word"> <a href="pages/wedding.html"> Wedding </a></span>
                                 </div>
                             </div>
                         </div>    
@@ -275,7 +334,7 @@
                 </div>
             </div>
         </section>
-       
+
 
         <!--Help-->
         <section id="help" class="mt-5">
@@ -296,7 +355,7 @@
         <section id ="contact" class="contactus mt-5">
 
             <div class="container">
-                
+
                 <h1 class="mb-4">Contact US</h1>
                 <div class="brdr1"></div>
                 <div class="brdr2"></div>
@@ -333,6 +392,7 @@
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
 
     </body>
 

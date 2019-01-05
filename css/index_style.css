@@ -116,7 +116,7 @@ body{
 
 
 /* login & signup*/
-.login {
+.login , .signup {
     text-align: left;
     position:relative;
     bottom:90px;
@@ -124,13 +124,21 @@ body{
 }
 
 
-.form-signin {
+.form-signin , .form-signup{
     max-width: 380px;
-    padding: 15px 35px 45px;
+    
     margin: 0 auto;
     background-color: rgba(0,0,0,0.2);
     border: 2px solid #B09F24;
     border-radius: 20px;
+}
+.form-signin{
+    
+    padding: 15px 35px 45px;
+}
+.form-signup{
+    padding: 15px 35px 15px;
+    display: none;
 }
 .form-signin h2{
 
@@ -139,15 +147,10 @@ body{
 
 }
 
-.form-signup {
-    max-width: 380px;
-    padding: 15px 35px 45px;
-    margin: 0 auto;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+.form-signup h2{
+    color:#fff;
+    font-size: 20px;
 }
-
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
     margin-bottom: 30px;
@@ -184,6 +187,7 @@ body{
 {
     display: none;
     width: 100%;
+    color:black;
 }
 .alertwrong 
 {
@@ -205,9 +209,7 @@ body{
 .loginColor,.signUpColor{
     color: #fff;
 }
-.loginColor,.signUpColor:hover{
-    color: black;
-}
+
 
 
 /* contact us */
@@ -339,12 +341,12 @@ form {
 }
 
 
-#category .frame .layer .word {
+#category .frame .layer .word a{
     font-size:30px;
     font-family: 'Rochester', cursive;
     font-style: italic;
     color:#B09F24;
-    cursor: pointer;
+    
 }
 
 #category .frame .layer .layer2 {
